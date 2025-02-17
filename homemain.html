@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome To Environect </title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="5.png" alt="Logo">
+            </div>
+            <div class="comyname">
+                <h1> Environect </h1>
+            </div>
+            <!-- Navbar Links -->
+            <ul class="nav-links">
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="Base.html"> Login </a></li>
+            </ul>
+
+            <!-- Menu Button -->
+            <div class="menu-bars" onclick="toggleMenu()">
+                <span>Environect</span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Dropdown Menu -->
+        <div class="dropdown-menu" id="dropdownMenu">
+            <button>Contact Us</button>
+            <button>About Us</button>
+            <button>Our Services</button>
+            <button>For Business</button>
+            <button>For Recyclers</button>
+            <button>For Consumers</button>
+            <button>Benefits</button>
+            <button>Why</button>
+            <button>FAQs</button>
+            <button>Help</button>
+            <button>Register</button>
+        </div>
+
+        <div class="content">
+            <h1>Open Site as</h1>
+            <button class="btn" id="forcon"><a href="Homepage.html">Consumer</a></button>
+            <button class="btn" id="forrec"><a href="#">Recycler</a></button>
+            <button class="btn" id="forbus"><a href="#">Business</a></button>
+        </div>
+    </header>
+    </html>
